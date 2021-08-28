@@ -1,6 +1,7 @@
 import React from "react";
 import './input.css';
 
+
 function Input() {
 
   // Function thats called when someone clicks "Hype me up"
@@ -34,6 +35,7 @@ function Input() {
           
           <button onClick={hypeMeUp} class="hype-button">Hype Me Up</button>
         </form>
+    
       </div>
       <div class="input-image">
         <div class="input-image">

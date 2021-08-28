@@ -1,6 +1,7 @@
 import React from "react";
 import './landing.css';
 import random from '../../src/images/random.jpg';
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed'; 
 
 function Landing() {
 
@@ -30,7 +31,20 @@ function Landing() {
       </div>
       
       <div class="main"></div>
+
+    <a class="twitter-timeline" href="https://twitter.com/Mattie85046400?ref_src=twsrc%5Etfw">Tweets by AllTheHype</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+    <TwitterTimelineEmbed
+      sourceType="Profile"
+      screenName="AllTheHype"
+      options="{{height: 400}}"
+    />
+
+
+
     </div>
+
+  
   );
 }
 
