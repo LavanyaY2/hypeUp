@@ -4,12 +4,15 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Samantha Grieco",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "twit": "^2.2.11"
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
   }
 }

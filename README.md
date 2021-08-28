@@ -1,7 +1,10 @@
-# Anitwit-Twitter-Bot
+# tech nova
 
-twitter.com/AnitwitBot
+RUN SERVER
+npm start
+runs on port 3001
 
-Twitter Bot that searches for tweets of individuals who have just joined Anitwit
-
-The bot retweets the tweet, allowing its followers to meet new people and make new friends in Anitwit
+RUN REACT WEBSITE
+cd client
+npm start
+(to stop click control c or command c)
