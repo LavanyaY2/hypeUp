@@ -1,7 +1,9 @@
 import React from "react";
 import './landing.css';
-import random from '../../src/images/random.jpg';
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed'; 
+import img1 from '../images/EstherDuflo.jpeg';
+import img2 from '../images/gitanjali.jpeg';
+import img3 from '../images/YulimarRojas.jpeg';
+
 
 function Landing() {
 
@@ -26,19 +28,28 @@ function Landing() {
         </p>
       </div>
       
+      
+      <div class="container">
+        <img class="item" src={img1} alt="Gitanjal Rao"/>
+        <img class="item" src={img2} alt="Yulima Rojas"/>
+        <img class="item" src={img3} alt="Esther Duflo"/>
+      </div>
+
       <div class="column">
-        <img src={random} alt="random image"/>
+        <p>image goees heere</p>
       </div>
       
       <div class="main"></div>
 
+{/*
     <a class="twitter-timeline" href="https://twitter.com/Mattie85046400?ref_src=twsrc%5Etfw">Tweets by AllTheHype</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 
     <TwitterTimelineEmbed
       sourceType="Profile"
       screenName="AllTheHype"
       options="{{height: 400}}"
-    />
+    /> */}
 
 
 
@@ -47,11 +58,5 @@ function Landing() {
   
   );
 }
-
-/* 
-<div className="App">
-      <button onClick={call}>{data}</button>
-    </div>
-*/
 
 export default Landing;

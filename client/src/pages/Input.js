@@ -1,5 +1,6 @@
 import React from "react";
 import './input.css';
+import { TwitterTimelineEmbed} from 'react-twitter-embed'; 
 
 
 function Input() {
@@ -7,6 +8,7 @@ function Input() {
   // Function thats called when someone clicks "Hype me up"
   function hypeMeUp (){
     console.log("button Works");
+     
   }
 
   return (
@@ -32,15 +34,19 @@ function Input() {
             <input type="radio" id="no" name="no" value="no" />
             <label for="no">No</label>
           </div>
-          
-          <button onClick={hypeMeUp} class="hype-button">Hype Me Up</button>
         </form>
+
+        <button onClick={hypeMeUp} class="hype-button">Hype Me Up</button>
     
       </div>
       <div class="input-image">
-        <div class="input-image">
-          IMAGE GOES HERE
-        </div>
+          <div class="image-side" >
+          <TwitterTimelineEmbed
+            sourceType="Profile"
+            screenName="Mattie85046400"
+            options="{{height: 700}}"
+          />
+          </div>
       </div>
     </div>
   );

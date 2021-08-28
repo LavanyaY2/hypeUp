@@ -38,7 +38,8 @@ input[type=text] {
 
 #accomplishment{
   height: 200px;
-  width: 600px;
+  width: 610px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 .hype-button{
@@ -56,6 +57,11 @@ input[type=text] {
 }
 
 .input-image{
-  width: 300px;
-  height: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-right: 60px;
+}
+
+.image-side{
 }
