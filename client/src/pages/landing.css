@@ -107,15 +107,16 @@ h1 {
 
 .navbar a {
   float: right;
-  display: block;
+  display: ruby-base;
   color: black;
   text-align: center;
   padding: 25px 35px;
+  font-family: sans-serif;
 }
 
 .navbar a:hover {
   color: purple;
 }
 .main {
-  margin-top: 50px;
+  margin-top: 30px;
 }
