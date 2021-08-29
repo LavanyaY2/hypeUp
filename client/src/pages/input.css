@@ -1,6 +1,6 @@
 .input-container{
   height: 90vh;
-  background-color: aliceblue;
+  background-color: #fff3e7;
   display: flex;
   justify-content: space-between;
 }
@@ -65,3 +65,18 @@ input[type=text] {
 
 .image-side{
 }
+
+.hype-result{
+  background-color: rgb(255, 142, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+.hype-result .word-box:nth-child(1){ 
+  font-size: 20px;
+}
+.hype-result .word-box:nth-child(2){ font-size: 25px;}
+.hype-result .word-box:nth-child(3){ font-size: 15px;}

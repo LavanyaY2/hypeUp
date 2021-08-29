@@ -15,47 +15,45 @@ function Landing() {
           <a href="resources.html"> Resources </a>
           <a href="input.js"> Hype Me Up </a>
       </div>
-{/* title */}
-      <div class="title">
-        <h1> AllTheHype; </h1>
-      </div>
-{/* intro pa */}
-      <div class="intro-text">
-        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-           Lorem Ipsum has been the industry's standard dummy text ever since the 
-          1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen 
-          book. It has survived not only five centuries, but also the leap into electronic typIpsum. 
-        </p>
-      </div>
-      
-      
-      <div class="container">
-        <img class="item" src={img1} alt="Gitanjal Rao"/>
-        <img class="item" src={img2} alt="Yulima Rojas"/>
-        <img class="item" src={img3} alt="Esther Duflo"/>
+
+    <div class="about-us-section">
+      <div class="top-section">
+        <div class="about-us">
+          <h1> All The Hype </h1>
+          <p class="intro-text"> 
+          Our mission aims to give women a space to feel celebrated about their accomplishments, especially for those who feel they are often disregarded. Having experienced this feeling before and seeing the general trend among history, we looked to create a site that works to uplift women and help them be loud and proud about what they have achieved. 
+          <br />
+          <br />
+          Scroll below to enter your name and accomplishment (written without personal pronouns), and answer a couple more prompted questions. Once you’ve entered your information, click the button “hype me up”, and we will take care of the rest!
+          </p>
+          <p class="inspiration">Our Inspiration:</p>
+        </div>
+        <div class="graphic-section">
+            Image goes here
+        </div>
       </div>
 
-      <div class="column">
-        <p>image goees heere</p>
+      <div class="bottom-section">
+        <div class="container">
+          <div class="image-box">
+            <img class="item" src={img1} alt="Gitanjal Rao"/>
+            <p class="name">NAME HERE</p>
+            <p class="desc">DESCRIPTION HERE</p>
+          </div>
+          <div class="image-box">
+            <img class="item" src={img2} alt="Yulima Rojas"/>
+            <p class="name">Yulimar Rojas</p>
+            <p class="desc">Set the world record for “Women’s Triple Jump” in the 2020 olympics!</p>
+          </div>
+          <div class="image-box">
+            <img class="item" src={img3} alt="Esther Duflo"/>
+            <p class="name">Esther Duflo</p>
+            <p class="desc">Won the “Nobel Memorial Prize in Economic Sciences” in 2019, becoming only the second woman to do so in history!</p>
+          </div>
+        </div>
       </div>
-      
-      <div class="main"></div>
-
-{/*
-    <a class="twitter-timeline" href="https://twitter.com/Mattie85046400?ref_src=twsrc%5Etfw">Tweets by AllTheHype</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-
-    <TwitterTimelineEmbed
-      sourceType="Profile"
-      screenName="AllTheHype"
-      options="{{height: 400}}"
-    /> */}
-
-
-
+      </div>
     </div>
-
-  
   );
 }
 

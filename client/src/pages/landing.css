@@ -1,20 +1,54 @@
-.title{
-color: #f6b93b;
-text-align: left;
-padding: 30px;
-margin-top: auto;
-font-size: 30px;
-font-family: 'Pacifico';
-font-weight: 400;
+.about-us-section{
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd4ed;
+    padding-bottom: 40px;
+}
+
+.top-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+h1{
+    color: #b89de0;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 5px;
+    font-size: 120px;
+    text-shadow: 4px 4px 0px #ffd4ed, -4px 0 0px #ffd4ed, 10px 4px 0 #ea4a2c;
+    margin: 14px 0 13px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
 }
 
 .intro-text{
-    color: rgb(101, 85, 114);
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    font-size: 25px;
-    font-family: 'Pacifico';
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    max-width: 50%;
+}
+
+.inspiration{
+    margin-top: 40px;
+    text-shadow:   2px 2px 0 #b89de0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.bottom-section{
+    margin-top: 20px ;
 }
 
 .container{
@@ -25,7 +59,28 @@ font-weight: 400;
 }
 
 .item{
-    margin: 5px;
+    width: 350px;
+    height: 220px;
+    box-shadow: 4px 4px 0px #b89de0;
+}
+
+.image-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    width: 350px;
+}
+
+.name{
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.desc{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 /*.row::after{

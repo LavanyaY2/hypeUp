@@ -1,8 +1,8 @@
 {
-  "name": "anitwitbot",
+  "name": "hypeup",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
