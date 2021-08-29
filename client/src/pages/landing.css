@@ -1,86 +1,86 @@
-.about-us-section{
-    margin-top: 68px;
-    display: flex;
-    flex-direction: column;
-    background-color: #ffd4ed;
-    padding-bottom: 40px;
+.about-us-section {
+  margin-top: 68px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffd4ed;
+  padding-bottom: 40px;
 }
 
-.top-section{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    width: 100%;
+.top-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.about-us{
-    display: flex;
-    flex-direction: column;
-    margin-left: 60px;
+.about-us {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
 }
 
-h1{
-    color: #b89de0;
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 5px;
-    font-size: 120px;
-    text-shadow: 4px 4px 0px #ffd4ed, -4px 0 0px #ffd4ed, 10px 4px 0 #ea4a2c;
-    margin: 14px 0 13px 0;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 400;
+h1 {
+  color: #b89de0;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 5px;
+  font-size: 120px;
+  text-shadow: 4px 4px 0px #ffd4ed, -4px 0 0px #ffd4ed, 10px 4px 0 #ea4a2c;
+  margin: 14px 0 13px 0;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
 }
 
-.intro-text{
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    max-width: 50%;
+.intro-text {
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  max-width: 50%;
 }
 
-.inspiration{
-    margin-top: 40px;
-    text-shadow:   2px 2px 0 #b89de0;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
+.inspiration {
+  margin-top: 40px;
+  text-shadow: 2px 2px 0 #b89de0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
 }
 
-.bottom-section{
-    margin-top: 20px ;
+.bottom-section {
+  margin-top: 20px;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    justify-content: space-evenly;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
 }
 
-.item{
-    width: 350px;
-    height: 220px;
-    box-shadow: 4px 4px 0px #b89de0;
+.item {
+  width: 350px;
+  height: 220px;
+  box-shadow: 4px 4px 0px #b89de0;
 }
 
-.image-box{
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items: center;
-    width: 350px;
+.image-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 350px;
 }
 
-.name{
-    font-family: 'Bebas Neue', cursive;
-    margin: 10px;
-    font-size: 25px;
+.name {
+  font-family: "Bebas Neue", cursive;
+  margin: 10px;
+  font-size: 25px;
 }
 
-.desc{
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+.desc {
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 /*.row::after{
@@ -98,24 +98,24 @@ h1{
 } */
 
 .navbar {
-    overflow:hidden;
-    color: black;
-    position: fixed;
-    top:0;
-    width: 100%;
+  overflow: hidden;
+  color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar a {
-    float: right;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 25px 35px;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 25px 35px;
 }
 
-.navbar a:hover{
-    color: blue;
+.navbar a:hover {
+  color: purple;
 }
-.main{
-    margin-top: 50px;
+.main {
+  margin-top: 50px;
 }
