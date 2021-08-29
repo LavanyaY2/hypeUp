@@ -11,9 +11,12 @@ function Landing() {
     <div class="landing-area">
       {/* navigation bar */}
       <div class="navbar">
-          <a href="#meettheteam.js"> Meet The Team </a>
-          <a href="resources.js" target= "_blank"> Resources </a>
-          <a href="input.js" target= "_blank"> Hype Me Up </a>
+        <a href="meettheteam.js" target="_blank"> Meet The Team </a>
+        <a href="input.js"> Hype Me Up </a>
+        <a href="resources.js" > Resources </a>
+          
+          
+          
       </div>
 
 

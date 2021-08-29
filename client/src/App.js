@@ -4,7 +4,7 @@ import Input from './pages/Input';
 import Meettheteam from './pages/Meettheteam';
 import Resources from './pages/Resources';
 import React from "react";
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 
 
 
@@ -21,28 +21,13 @@ function App() {
 
   return (
     
-    <Router>
-      <div className="container mt-2" style={{ marginTop: 40 }}>
-        <Switch>
-          <Route exact path="/">
-            <Landing />
-          </Route>
-          <Route path="/about">
-            <Input />
-          </Route>
-        </Switch>
-      </div>
-      </Router>
 
-    
-
-    // //<div>
-    //   <Landing />
-    //   <Input />
-    //   <Meettheteam />
-    //   <Resources />
-    //  </div>//
-
+    <div>
+      <Landing />
+      <Input />
+      <Meettheteam />
+      <Resources />
+     </div>
   );
 }
 
