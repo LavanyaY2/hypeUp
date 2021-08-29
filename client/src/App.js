@@ -1,7 +1,12 @@
 import './App.css';
 import Landing from './pages/Landing';
 import Input from './pages/Input';
+import Meettheteam from './pages/Meettheteam';
+import Resources from './pages/Resources';
 import React from "react";
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
+
 
 function App() {
   const [data, setData] = React.useState("empty");
@@ -13,11 +18,31 @@ function App() {
     .then((data) => setData(data.message));
   }
 
+
   return (
-    <div>
-      <Landing />
-      <Input />
-    </div>
+    
+    <Router>
+      <div className="container mt-2" style={{ marginTop: 40 }}>
+        <Switch>
+          <Route exact path="/">
+            <Landing />
+          </Route>
+          <Route path="/about">
+            <Input />
+          </Route>
+        </Switch>
+      </div>
+      </Router>
+
+    
+
+    // //<div>
+    //   <Landing />
+    //   <Input />
+    //   <Meettheteam />
+    //   <Resources />
+    //  </div>//
+
   );
 }
 
